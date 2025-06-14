@@ -1,0 +1,45 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "name": "Rose",
+            "scientificName": "Rosa",
+            "colors": ["red", "pink", "white", "yellow"],
+            "season": ["spring", "summer"],
+            "careLevel": "moderate",
+            "waterNeeds": "regular",
+            "sunlight": "full sun",
+            "useCases": ["bouquets", "gardens", "landscaping"],
+            "symbolism": ["love", "passion", "beauty"]
+        },
+        {
+            "id": 2,
+            "name": "Tulip",
+            "scientificName": "Tulipa",
+            "colors": ["red", "yellow", "purple", "pink", "white"],
+            "season": ["spring"],
+            "careLevel": "easy",
+            "waterNeeds": "moderate",
+            "sunlight": "full sun to partial shade",
+            "useCases": ["gardens", "cut flowers", "containers"],
+            "symbolism": ["perfect love", "rebirth"]
+        },
+        {
+            "id": 3,
+            "name": "Orchid",
+            "scientificName": "Orchidaceae",
+            "colors": ["purple", "white", "pink", "yellow"],
+            "season": ["year-round"],
+            "careLevel": "advanced",
+            "waterNeeds": "low",
+            "sunlight": "indirect light",
+            "useCases": ["indoor plants", "decorative"],
+            "symbolism": ["luxury", "beauty", "strength"]
+        }
+    ],
+    "metadata": {
+        "lastUpdated": "2024-03-20",
+        "version": "1.0.0",
+        "source": "Botanical Database"
+    }
+} 

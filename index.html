@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>צ'אטבוט פרחים | FlowerBot</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      direction: rtl;
+      color: #333;
+      overflow-x: hidden;
+    }
+    body {
+      background: transparent;
+    }
+    .background-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.95);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .navbar .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .navbar img {
+      height: 40px;
+    }
+    .navbar h1 {
+      font-size: 1.5em;
+      margin: 0;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px 30px;
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+    header h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.3em;
+      margin: 0;
+    }
+    section {
+      background-color: rgba(255, 255, 255, 0.88);
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: 30px auto;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.15);
+    }
+    iframe {
+      width: 100%;
+      min-height: 700px;
+      border: none;
+      margin-top: 30px;
+      border-radius: 12px;
+    }
+    ul {
+      padding-right: 20px;
+      list-style-type: disc;
+    }
+    ul li {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #ec407a;
+      color: white;
+      padding: 14px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin: 20px 0;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #d81b60;
+    }
+    footer {
+      background-color: rgba(255, 255, 255, 0.95);
+      text-align: center;
+      padding: 20px;
+      font-size: 0.95em;
+      color: #444;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop class="background-video">
+    <source src="856192-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    הדפדפן שלך לא תומך בסרטוני רקע.
+  </video>
+
+  <div class="navbar">
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/2909/2909764.png" alt="Flower Logo">
+      <h1>צ'אטבוט פרחים</h1>
+    </div>
+  </div>
+
+  <header>
+    <h2>מחפשים את הפרח המושלם? 🌸</h2>
+    <p>הבוט שלנו יענה על כל שאלה על פרחים, מתנות ומשמעויות</p>
+  </header>
+
+  <section>
+    <h3>איך אפשר לעזור לכם היום?</h3>
+    <p>הבוט יודע להתאים פרח לכל אירוע, לספר על המשמעות הסמלית של פרחים, ולעזור לכם לבחור את הזר המושלם 🎁</p>
+
+    <a href="#chatbot" class="cta-button">התחילו לדבר עם הבוט</a>
+
+    <h3 style="margin-top: 30px;">דוגמאות לשאלות שתוכלו לשאול:</h3>
+    <ul>
+      <li>🌹 איזה פרח מתאים ליום נישואין?</li>
+      <li>💐 מה המשמעות של צבעוני סגול?</li>
+      <li>🎁 איזה זר לקנות ליולדת?</li>
+    </ul>
+
+    <div id="chatbot">
+      <iframe src="https://www.chatbase.co/chatbot-iframe/7TW0Np_pBONW4D8HLklYE" allow="microphone;"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 צ'אטבוט פרחים | כל הזכויות שמורות | Designed with ❤️
+  </footer>
+</body>
+</html>

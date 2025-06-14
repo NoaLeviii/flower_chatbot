@@ -1,0 +1,73 @@
+/* RTL Specific Styles */
+body, html {
+    direction: rtl;
+    text-align: right;
+}
+
+.navbar {
+    flex-direction: row-reverse;
+}
+
+.navbar .logo {
+    flex-direction: row-reverse;
+}
+
+ul {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+/* RTL specific animations */
+@keyframes slideInRTL {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.notification {
+    left: 2rem;
+    right: auto;
+    animation: slideInRTL 0.3s ease;
+}
+
+/* RTL specific margins and paddings */
+.section {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.chat-controls {
+    flex-direction: row-reverse;
+}
+
+/* RTL specific icons */
+.icon-rtl {
+    transform: scaleX(-1);
+}
+
+/* RTL specific modal */
+.modal-content {
+    text-align: right;
+}
+
+/* RTL specific form elements */
+input, textarea, select {
+    text-align: right;
+}
+
+/* RTL specific buttons */
+button {
+    flex-direction: row-reverse;
+}
+
+/* RTL specific tooltips */
+[data-tooltip]:before {
+    right: 50%;
+    left: auto;
+    transform: translateX(50%);
+} 

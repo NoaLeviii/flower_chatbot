@@ -1,0 +1,35 @@
+{
+    "ui": {
+        "title": "צ'אטבוט פרחים",
+        "subtitle": "מחפשים את הפרח המושלם? 🌸",
+        "description": "הבוט שלנו יענה על כל שאלה על פרחים, מתנות ומשמעויות",
+        "helpTitle": "איך אפשר לעזור לכם היום?",
+        "helpDescription": "הבוט יודע להתאים פרח לכל אירוע, לספר על המשמעות הסמלית של פרחים, ולעזור לכם לבחור את הזר המושלם 🎁",
+        "startChat": "התחילו לדבר עם הבוט",
+        "exampleQuestions": "דוגמאות לשאלות שתוכלו לשאול:",
+        "footer": "© 2025 צ'אטבוט פרחים | כל הזכויות שמורות | Designed with ❤️"
+    },
+    "examples": [
+        {
+            "question": "איזה פרח מתאים ליום נישואין?",
+            "icon": "🌹"
+        },
+        {
+            "question": "מה המשמעות של צבעוני סגול?",
+            "icon": "💐"
+        },
+        {
+            "question": "איזה זר לקנות ליולדת?",
+            "icon": "🎁"
+        }
+    ],
+    "errors": {
+        "videoNotSupported": "הדפדפן שלך לא תומך בסרטוני רקע",
+        "chatbotError": "אירעה שגיאה בטעינת הצ'אטבוט",
+        "retry": "נסה שוב"
+    },
+    "loading": {
+        "video": "טוען רקע...",
+        "chatbot": "טוען צ'אטבוט..."
+    }
+} 
