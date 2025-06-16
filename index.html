@@ -71,11 +71,17 @@
       box-shadow: 0 0 25px rgba(0,0,0,0.15);
     }
     iframe {
-      width: 100%;
+      /* width: 100%;
       min-height: 700px;
       border: none;
       margin-top: 30px;
+      border-radius: 12px; */
+      width: 100%;
+      height: 500px; /* מקטין את הגובה כדי לחתוך את הקרדיט של Chatbase */
+      border: none;
+      margin-top: 30px;
       border-radius: 12px;
+      overflow: hidden;
     }
     ul {
       padding-right: 20px;
@@ -141,9 +147,17 @@
       <li>🎁 איזה זר לקנות ליולדת?</li>
     </ul>
 
-    <div id="chatbot">
+    <!-- <div id="chatbot">
       <iframe src="https://www.chatbase.co/chatbot-iframe/7TW0Np_pBONW4D8HLklYE" allow="microphone;"></iframe>
+    </div> -->
+    <div id="chatbot-wrapper" style="position: relative; height: 700px; overflow: hidden; border-radius: 12px;">
+      <iframe 
+        src="https://www.chatbase.co/chatbot-iframe/7TW0Np_pBONW4D8HLklYE" 
+        allow="microphone;" 
+        style="position: absolute; top: -40px; height: 740px; width: 100%; border: none;">
+      </iframe>
     </div>
+
   </section>
 
   <footer>
